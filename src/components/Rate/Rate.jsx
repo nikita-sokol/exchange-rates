@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import TabelTr from './TabelTr';
 
-const Rate = ({check}) => {
+const Rate = ({check, ratesAMD}) => {
 
    const [currencies, setCurrencies] = useState([
       {
@@ -39,8 +39,8 @@ const Rate = ({check}) => {
             </thead>
             <tbody>
                {
-                  currencies.map(item=>{
-                     return <TabelTr key={item.curName} curName={item.curName} curSign={item.curSign} rate={item.rate} check={check}/>
+                  ratesAMD.rates.map(item=>{
+                     return <TabelTr key={item.curName} curName={item.curName} curSign={item.curSign} rate={item.rate} check={check} date={ratesAMD.date}/>
                   })
                }
             </tbody>
