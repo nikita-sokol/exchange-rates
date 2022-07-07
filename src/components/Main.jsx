@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Check from './Check';
-import Rate from './Rate';
+import Rate from './Rate/Rate';
 
 const Main = () => {
 
@@ -16,7 +16,7 @@ const Main = () => {
             </div>
 
             <div className="cc-box">
-               <Rate/>
+               <Rate check={check}/>
             </div>
          </div>
       </div>

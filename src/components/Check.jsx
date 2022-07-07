@@ -9,6 +9,9 @@ const Check = ({check, setCheck}) => {
       }
 
       let count = Number(e.target.value);
+      if (String(count).length > 6) {
+         return;
+      }
       setCheck(() => count);
    };
 
