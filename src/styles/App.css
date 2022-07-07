@@ -1,0 +1,141 @@
+@import 'reset';
+
+.main {
+   width: 100%;
+   min-height: 100vh;
+   padding: 40px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.title-h1 {
+   font-size: 40px;
+   font-weight: 700;
+   margin-bottom: 28px;
+}
+
+.title-h3 {
+   font-size: 22px;
+   font-weight: 700;
+   margin-bottom: 28px;
+}
+
+.cur-conver {
+   width: 600px;
+   padding: 40px 48px;
+   background: #fff;
+   border-radius: 12px;
+}
+
+.tabel {
+   width: 100%;
+   border-collapse: collapse;
+}
+
+.tabel__th {
+   padding: 1px;
+   padding-bottom: 6px;
+   color: #6d7986;
+   font-size: 14px;
+   font-weight: 400;
+}
+
+.tabel__td {
+   padding: 16px 0;
+}
+.tabel__td:nth-child(1) {
+   width: 10%;
+}
+.tabel__td:nth-child(2) {
+
+}
+.tabel__td:nth-child(3) {
+   padding-left: 10px;
+}
+
+.currency {
+   font-size: 18px;
+   font-weight: 700;
+   line-height: 22px;
+   color: #0b1f35;
+}
+
+.exchange {
+   font-size: 18px;
+   line-height: 24px;
+   font-weight: 400;
+   color: rgba(11, 31, 53, .7);
+   margin-bottom: 4px;
+}
+
+.date {
+   font-size: 14px;
+   line-height: 18px;
+   font-weight: 400;
+   color: rgba(11, 31, 53, .7);
+}
+
+.amount {
+   font-size: 18px;
+   font-weight: 700;
+   line-height: 22px;
+   color: #0b1f35;
+}
+
+
+.cc-box + .cc-box {
+   margin-top: 50px;
+}
+
+.form-check {
+   position: relative;
+}
+
+.form-check__input {
+   padding: 17px 35px 1px 12px;
+   appearance: none;
+   border-radius: 4px 4px 0 0;
+   font-size: 16px;
+   font-weight: 600;
+   width: 100%;
+   height: 56px;
+   border: 0;
+   border-bottom: 1px solid rgba(11, 31, 53, .3);
+   background: rgba(11, 31, 53, .05);
+}
+
+.form-check__label {
+   position: absolute;
+   top: 9px;
+   left: 12px;
+   color: rgba(11, 31, 53, .6);
+   font-size: 13px;
+}
+
+.tabel__tr:not(:first-child) {
+   border-top: 1px solid rgba(11, 31, 53, .1);
+}
+
+@media screen and (max-width: 700px) {
+   .main {
+      background: #fff;
+   }
+
+   .cur-conver {
+      width: 100%;
+      padding-right: 0;
+      padding-left: 0;
+   }
+}
+
+@media screen and (max-width: 550px) {
+   .main {
+      padding-right: 25px;
+      padding-left: 25px;
+   }
+}
+
+@media screen and (max-width: 410px) {
+
+}
