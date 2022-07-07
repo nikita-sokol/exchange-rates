@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/nikita-sokol/exchange-rates/static/css/main.e20913e4.css",
-    "main.js": "/nikita-sokol/exchange-rates/static/js/main.33121aef.js",
-    "index.html": "/nikita-sokol/exchange-rates/index.html",
-    "main.e20913e4.css.map": "/nikita-sokol/exchange-rates/static/css/main.e20913e4.css.map",
-    "main.33121aef.js.map": "/nikita-sokol/exchange-rates/static/js/main.33121aef.js.map"
+    "main.css": "/exchange-rates/static/css/main.e20913e4.css",
+    "main.js": "/exchange-rates/static/js/main.33121aef.js",
+    "index.html": "/exchange-rates/index.html",
+    "main.e20913e4.css.map": "/exchange-rates/static/css/main.e20913e4.css.map",
+    "main.33121aef.js.map": "/exchange-rates/static/js/main.33121aef.js.map"
   },
   "entrypoints": [
     "static/css/main.e20913e4.css",
